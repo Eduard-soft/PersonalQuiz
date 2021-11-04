@@ -63,6 +63,7 @@ class QuestionsViewController: UIViewController {
         let index = lrintf(rangedSlider.value)
         answerChosen.append(currentAnswers[index])
         nextQuestion()
+        navigationItem.hidesBackButton = true
     }
 }
 
